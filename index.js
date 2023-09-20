@@ -1,6 +1,6 @@
 // scraper.js
 import axios from 'axios';
-import cheerio from 'cheerio';
+import cheerio, { Cheerio } from 'cheerio';
 import fs from 'fs';
 import path from 'path';
 
@@ -9,7 +9,7 @@ async function scrapeMemes() {
     const response = await axios.get(
       'https://memegen-link-examples-upleveled.netlify.app/',
     );
-    const $ = cheerio.load(response.data);
+    const $ = Cheerio.load(response.data);
 
     // Use jQuery-like selectors to target meme elements on the page.
     $('.meme').each((index, element) => {
