@@ -1,0 +1,269 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-91304960-3"></script>
+<script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-91304960-3');
+  </script>
+
+<script type="text/javascript">
+    window['_fs_debug'] = false;
+    window['_fs_host'] = 'fullstory.com';
+    window['_fs_script'] = 'edge.fullstory.com/s/fs.js';
+    window['_fs_org'] = 'YY28W';
+    window['_fs_namespace'] = 'FS';
+    (function (m, n, e, t, l, o, g, y) {
+      if (e in m) { if (m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].'); } return; }
+      g = m[e] = function (a, b, s) { g.q ? g.q.push([a, b, s]) : g._api(a, b, s); }; g.q = [];
+      o = n.createElement(t); o.async = 1; o.crossOrigin = 'anonymous'; o.src = 'https://' + _fs_script;
+      y = n.getElementsByTagName(t)[0]; y.parentNode.insertBefore(o, y);
+      g.identify = function (i, v, s) { g(l, { uid: i }, s); if (v) g(l, v, s) }; g.setUserVars = function (v, s) { g(l, v, s) }; g.event = function (i, v, s) { g('event', { n: i, p: v }, s) };
+      g.anonymize = function () { g.identify(!!0) };
+      g.shutdown = function () { g("rec", !1) }; g.restart = function () { g("rec", !0) };
+      g.log = function (a, b) { g("log", [a, b]) };
+      g.consent = function (a) { g("consent", !arguments.length || a) };
+      g.identifyAccount = function (i, v) { o = 'account'; v = v || {}; v.acctId = i; g(o, v) };
+      g.clearUserCookie = function () { };
+      g.setVars = function (n, p) { g(n, p); };
+      g._w = {}; y = 'XMLHttpRequest'; g._w[y] = m[y]; y = 'fetch'; g._w[y] = m[y];
+      if (m[y]) m[y] = function () { return g._w[y].apply(this, arguments) };
+      g._v = "1.3.0";
+    })(window, document, window['_fs_namespace'], 'script', 'user');
+  </script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meme Complete</title>
+<link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png">
+<link rel="manifest" href="/static/production.webmanifest">
+<link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" color="#6D767D">
+<link rel="shortcut icon" href="/static/favicons/favicon.ico">
+<meta name="msapplication-TileColor" content="#6D767D">
+<meta name="description" content="forever alone">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="FA Meme">
+<meta name="twitter:description" content="forever alone">
+<meta name="twitter:image" content="https://api.memegen.link/images/fa/forever/alone.jpg?token=21ltcdh0tz941qk33lpj&width=940&height=492">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Meme Complete">
+<meta property="og:title" content="FA Meme">
+<meta property="og:url" content="https://memecomplete.com/share/images/fa/forever/alone.jpg%3Ftoken%3D21ltcdh0tz941qk33lpj">
+<meta property="og:description" content="forever alone">
+<meta property="og:image" content="https://api.memegen.link/images/fa/forever/alone.jpg?token=21ltcdh0tz941qk33lpj&width=880&height=440">
+<meta property="og:image:width" content="940">
+<meta property="og:image:height" content="492">
+<meta name="slack-app-id" content="A8P8MP1D3">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.2.0/dist/select2-bootstrap-5-theme.min.css" />
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<link rel="stylesheet" href="/static/stylesheets/custom.css">
+</head>
+<body>
+<nav class="navbar navbar-light navbar-expand justify-content-between">
+<div class="container-fluid">
+<a class="navbar-brand" href="/">
+<img alt="Meme Complete" src="/static/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt>
+&nbsp;
+Meme Complete
+</a>
+<div class="d-flex gap-1">
+<a href="/search/" class="btn btn-outline-dark">
+<span class="d-none d-md-block">
+<span class="fa fa-search"></span>
+&nbsp;
+Search
+</span>
+<span class="d-block d-md-none">
+<span class="fa fa-search"></span>
+</span>
+</a>
+<a href="/live/" class="btn btn-outline-dark">
+<span class="d-none d-md-block">
+<span class="fa fa-microphone"></span>
+&nbsp;
+Live
+</span>
+<span class="d-block d-md-none">
+<span class="fa fa-microphone"></span>
+</span>
+</a>
+<a href="/slack/" class="btn btn-outline-dark">
+<span class="d-none d-md-block">
+<span class="fa fa-slack"></span>
+&nbsp;
+Slack
+</span>
+<span class="d-block d-md-none">
+<span class="fa fa-slack"></span>
+</span>
+</a>
+</div>
+</div>
+</nav>
+<div class="container pt-3 pb-5">
+<div class="row pt-4">
+<div class="col d-flex justify-content-center align-items-center">
+<i class="fa fa-spinner fa-pulse fa-3x img-spinner"></i>
+<img class="img-share rounded" src="https://api.memegen.link/images/fa/forever/alone.jpg?token=21ltcdh0tz941qk33lpj" loading="lazy" onerror="this.src='https://api.memegen.link/images/error/http_error_404/meme_not_found.jpg'">
+</div>
+</div>
+<div class="text-center pt-4">
+<a class="btn btn-outline-dark disable-link mb-1" href="https://www.facebook.com/sharer/sharer.php?u=https://memecomplete.com/share/images/fa/forever/alone.jpg%3Ftoken%3D21ltcdh0tz941qk33lpj" target="_blank">
+<span class="d-none d-md-block">
+<span class="fa fa-facebook-official"></span>
+&nbsp;
+Share on Facebook
+</span>
+<span class="d-block d-md-none">
+<span class="fa fa-facebook"></span>
+</span>
+</a>
+<a class="btn btn-outline-dark disable-link mb-1" href="https://twitter.com/intent/tweet?text=https://memecomplete.com/share/images/fa/forever/alone.jpg%3Ftoken%3D21ltcdh0tz941qk33lpj" target="_blank">
+<span class="d-none d-md-block">
+<span class="fa fa-twitter-square"></span>
+&nbsp;
+Share on Twitter
+</span>
+<span class="d-block d-md-none">
+<span class="fa fa-twitter"></span>
+</span>
+</a>
+<div class="btn-group dropup mb-1">
+<button type="button" class="btn btn-outline-dark" data-clipboard-text="https://memecomplete.com/share/images/fa/forever/alone.jpg%3Ftoken%3D21ltcdh0tz941qk33lpj">
+<span class="fa fa-clipboard"></span>
+&nbsp;
+Copy Link
+</button>
+<button type="button" class="btn btn-outline-dark dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" title="View additional options">
+<span class="fa fa-fw fa-ellipsis-h"></span>
+</button>
+<div class="dropdown-menu dropdown-menu-end p-2">
+<button type="button" class="btn btn-outline-dark text-nowrap" data-clipboard-text=" https://api.memegen.link/images/fa/forever/alone.jpg?watermark=memecomplete.com&amp;token=a0etsel3k3d85uo77ptn ">
+<span class="fa fa-image"></span>
+&nbsp;
+Copy Image URL
+</button>
+<button type="button" class="btn btn-outline-dark text-nowrap mt-2" data-clipboard-text="[![memecomplete](https://api.memegen.link/images/fa/forever/alone.jpg?token=21ltcdh0tz941qk33lpj)](https://memecomplete.com/share/images/fa/forever/alone.jpg%3Ftoken%3D21ltcdh0tz941qk33lpj)">
+<span class="fa fa-github-alt"></span>
+&nbsp;
+Copy Markdown Link
+</button>
+<a class="btn btn-outline-dark disable-link text-nowrap mt-2" href="/download/https://api.memegen.link/images/fa/forever/alone.png%3Fwatermark=memecomplete.com&amp;token=a0etsel3k3d85uo77ptn" download="memecomplete_forever_alone.png">
+<span class="fa fa-download"></span>
+&nbsp;
+Download Image (PNG)
+</a>
+<a class="btn btn-outline-dark disable-link text-nowrap mt-2" href="/download/https://api.memegen.link/images/fa/forever/alone.jpg%3Fwatermark=memecomplete.com&amp;token=a0etsel3k3d85uo77ptn" download="memecomplete_forever_alone.jpg">
+<span class="fa fa-download"></span>
+&nbsp;
+Download Image (JPEG)
+</a>
+<div class="dropdown-divider"></div>
+<a class="btn btn-outline-secondary disable-link text-nowrap mb-2" href="https://memecomplete.com/custom/?key=https://api.memegen.link/images/fa/forever/alone.jpg&amp;style=default&amp;editing=true">
+<span class="fa fa-pencil"></span>
+&nbsp;
+Customize Text
+</a>
+<button type="button" class="btn btn-outline-secondary text-nowrap" data-clipboard-text="https://memecomplete.com/custom/?key=https://api.memegen.link/images/fa.jpg&amp;style=default&amp;editing=true">
+<span class="fa fa-clone"></span>
+&nbsp;
+Share Template
+</button>
+</div>
+</div>
+</div>
+<div class="my-5 text-center">
+<hr>
+</div>
+<div class="row mb-4" id="search" hx-get="/search/_form" hx-trigger="every 7s [shouldCyclePlaceholder()]" hx-swap="outerHTML">
+<div class="col-12">
+<form action="/" method="post">
+<div class="input-group">
+<tr>
+<th></th>
+<td>
+<input type="text" name="text" onfocus="this.select()" class="form-control" maxlength="500" placeholder="Try a phrase like〝every part of that meme is wrong〞" id="id_text">
+<input type="hidden" name="placeholder" value="every part of that meme is wrong" id="id_placeholder">
+</td>
+</tr>
+<button class="btn btn-primary" id="id_search" type="submit" onclick="$('.search').removeClass('fa-search').addClass('fa-spinner fa-pulse');
+            $('#search').attr('hx-swap', 'none');">
+<span class="d-none d-sm-block">
+<span class="fa fa-search search"></span>
+&nbsp;
+Search
+</span>
+<span class="d-block d-sm-none">
+<span class="fa fa-search search"></span>
+</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+<footer class="footer d-none d-sm-block">
+<p class="text-muted float-start">
+&copy; 2023 <a href="https://maketested.com" class="text-decoration-none">MakeTested, LLC</a>
+</p>
+<p class="text-muted float-end">
+Powered by <a href="https://memegen.link" class="text-decoration-none">Memegen.link</a>
+</p>
+</footer>
+<footer class="footer d-block d-sm-none">
+<p class="text-muted text-center mb-1">
+&copy; 2023 <a href="https://maketested.com" class="text-decoration-none">MakeTested, LLC</a>
+</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+<script src="https://unpkg.com/htmx.org@1.9.0" integrity="sha384-aOxz9UdWG0yBiyrTwPeMibmaoq07/d3a96GCbb9x60f3mOt5zwkjdbcHFnKH8qls" crossorigin="anonymous"></script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+      .register('/service-worker.js')
+      .then(() => { console.log('Service worker registered'); });
+  }
+  </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.6.1/clipboard.min.js"></script>
+<script src="/static/javascripts/copy.js"></script>
+<script src="/static/javascripts/placeholder.js"></script>
+<script type="text/javascript">
+
+function preloadImage(url) {
+    var preload = new Image();
+    preload.src = url;
+}
+
+$(document).ready(function() {
+    $('.img-spinner').delay(500).fadeIn(1000);
+
+    
+    setTimeout(() => { preloadImage("https://api.memegen.link/images/fa/forever/alone.png?watermark=memecomplete.com&token=a0etsel3k3d85uo77ptn") }, 500);
+    
+    setTimeout(() => { preloadImage("https://api.memegen.link/images/fa/forever/alone.jpg?watermark=memecomplete.com&token=a0etsel3k3d85uo77ptn") }, 500);
+    
+})
+
+</script>
+</body>
+</html>
